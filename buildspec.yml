@@ -1,0 +1,10 @@
+version: 0.1
+
+phases:
+  install:
+    commands:
+      - echo Execute install
+    build:
+      - echo Execute build
+    post_builds:
+      - echo Execute post
